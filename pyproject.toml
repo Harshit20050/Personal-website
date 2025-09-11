@@ -1,0 +1,5 @@
+[tool.poetry.dependencies]
+python = "^3.10"
+flagsmith = "^3.24.0"
+mindsdb = "*"
+clickhouse-sqlalchemy = { git = "https://github.com/xzkostyan/clickhouse-sqlalchemy.git" }
