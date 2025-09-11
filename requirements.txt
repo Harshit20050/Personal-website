@@ -1,5 +1,3 @@
 flagsmith==3.24.0
 mindsdb
-mindsdb = "*"
-clickhouse-sqlalchemy = { git = "https://github.com/xzkostyan/clickhouse-sqlalchemy.git" }
-git+https://github.com/xzkostyan/clickhouse-sqlalchemy.git#egg=clickhouse-sqlalchemy
+git+https://github.com/xzkostyan/clickhouse-sqlalchemy.git
