@@ -137,8 +137,4 @@ $~$
 
 $~$
 
-### :people_holding_hands: Meet the Author
-
-<img  src="Pages/Assets/author.jpg" alt="Author">
-
 
