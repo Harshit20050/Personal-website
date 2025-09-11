@@ -1,3 +1,5 @@
 flagsmith
 mindsdb
+mindsdb = "*"
+clickhouse-sqlalchemy = { git = "https://github.com/xzkostyan/clickhouse-sqlalchemy.git" }
 git+https://github.com/xzkostyan/clickhouse-sqlalchemy.git#egg=clickhouse-sqlalchemy
