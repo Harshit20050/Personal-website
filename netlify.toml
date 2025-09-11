@@ -1,6 +1,10 @@
 [build]
   publish = "."            # current directory
   command = "npm run build"
+  
+  [build.environment]
+  PYTHON_VERSION = "3.10"
+
 
 [build.environment]
   NODE_VERSION = "18"
