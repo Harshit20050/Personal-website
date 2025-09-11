@@ -1,3 +1,3 @@
 flagsmith
 mindsdb
-scikit-learn>=1.4.2
+git+https://github.com/xzkostyan/clickhouse-sqlalchemy.git#egg=clickhouse-sqlalchemy
