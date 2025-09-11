@@ -1,5 +1,15 @@
+[tool.poetry]
+name = "personal-website"
+version = "0.1.0"
+description = "Personal website with MindsDB integration"
+authors = ["Harshit Sharma <harshitsharma7691@gmail.com>"]
+
 [tool.poetry.dependencies]
 python = "^3.10"
 flagsmith = "^3.24.0"
 mindsdb = "*"
 clickhouse-sqlalchemy = { git = "https://github.com/xzkostyan/clickhouse-sqlalchemy.git" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
