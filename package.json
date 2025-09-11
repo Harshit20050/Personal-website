@@ -1,5 +1,20 @@
 {
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website deployed on Netlify",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "flagsmith": "^3.24.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
