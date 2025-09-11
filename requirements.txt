@@ -1,2 +1,3 @@
 flagsmith
 mindsdb
+scikit-learn>=1.4.2
