@@ -1,18 +1,16 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "description": "My personal website deployed on Netlify",
+  "description": "Static personal website",
   "scripts": {
-    "start": "npm run dev",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "live-server --open index.html",
+    "build": "echo \"No build step required\""
   },
   "dependencies": {
     "flagsmith": "^3.24.0"
   },
   "devDependencies": {
-    "vite": "^5.0.0"
+    "live-server": "^1.2.1"
   },
   "engines": {
     "node": ">=18"
